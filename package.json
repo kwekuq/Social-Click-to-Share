@@ -1,0 +1,16 @@
+{
+  "name": "social-click-to-share",
+  "version": "1.0.0",
+  "description": "a click action to open a new tab and share the current page link with social media.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Kweku Quansah",
+    "email": "kwekuq@gmail.com",
+    "url": "https://github.com/kwekuq"
+  },
+  "license": "ISC"
+}
