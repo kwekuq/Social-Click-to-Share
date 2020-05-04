@@ -1,5 +1,5 @@
 {
-  "name": "social-click-to-share",
+  "name": "@kwekuq/social-click-to-share",
   "version": "1.3.0",
   "description": "a click action to open a new tab and share the current page link with social media.",
   "main": "index.js",
