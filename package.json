@@ -1,6 +1,6 @@
 {
   "name": "@kwekuq/social-click-to-share",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "a click action to open a new tab and share the current page link with social media.",
   "main": "index.js",
   "scripts": {
