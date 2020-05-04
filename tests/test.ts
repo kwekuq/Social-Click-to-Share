@@ -1,10 +1,39 @@
-import { expect } from 'chai';
+import { assert } from 'chai';
+import {SocialLinks} from "../src/SocialLinks";
 import 'mocha';
 
-describe('First test', () => {
+describe('Facebook Test', () => {
+    it('Should be a string', ()=>{
+        assert.typeOf(SocialLinks.FaceBook, 'string');
+    })
+});
 
-    it('should return true', () => {
-        expect(true).to.equal(true);
-    });
+describe('Reddit Test', () => {
+    it('Should be a string', ()=>{
+        assert.typeOf(SocialLinks.Reddit, 'string');
+    })
+});
 
+describe('Twitter Test', () => {
+    it('Should be a string', ()=>{
+        assert.typeOf(SocialLinks.Twitter, 'string');
+    })
+});
+
+describe('LinkedIn Test', () => {
+    it('Should be a string', ()=>{
+        assert.typeOf(SocialLinks.LinkedIn, 'string');
+    })
+});
+
+describe('Telegram Test', () => {
+    it('Should be a string', ()=>{
+        assert.typeOf(SocialLinks.Telegram, 'string');
+    })
+});
+
+describe('WhatsApp Test', () => {
+    it('Should be a string', ()=>{
+        assert.typeOf(SocialLinks.WhatsApp, 'string');
+    })
 });
